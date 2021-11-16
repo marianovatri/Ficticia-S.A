@@ -13,12 +13,13 @@
 
 
 <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="index.php">
     <img src="https://assurerbroker.com/wp-content/uploads/2020/10/corazon-con-variante-de-linea-de-vida.png" width="30" height="30" class="d-inline-block align-top" alt="">
     <h6>Ficticia S.A</h6>
-    <div>
-    <a href="index.php">Registrarse</a>
-    <a href="darBaja.php">Clientes Actuales</a>
+    <div class="links">
+    <a href="index.php">Inicio</a>
+    <a href="registro.php">Registrarse</a>
+    <a href="clientes.php">Clientes Actuales</a>
     </div>
   </a>
 </nav>
