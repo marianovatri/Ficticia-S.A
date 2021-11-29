@@ -16,7 +16,7 @@
 
 
 
-<h1>Registrarse</h1>
+<h1>Registro de Clientes </h1>
 <div>
   <strong>Datos Principales</strong>
   </div>
@@ -27,8 +27,6 @@
   value="<?php if(isset($nombrecompleto)) echo $nombrecompleto ?>"  required
   pattern="[A-Za-z- ]{5,30}"  title="Ingrese solo letras. Tamaño mínimo: 5. Tamaño máximo: 30"       >
 </div>
-
-
 
 
 <div class="form-group">
@@ -90,14 +88,14 @@
 
   <label>¿Tiene alguna enfermedad? </label>
   
-  <select  name="enfermedad" class="form-control"  required    >
+  <select  name="enfermedad" class="form-control" onchange="a(this.value)"  required    >
   <option></option>
-  <option>No</option>
-  <option>Si</option>
+  <option value="No">No</option>
+  <option value="Si">Si</option>
   </select>
-  
-  <input class="form-control" type="text" name="qenfermedad" placeholder="En caso de SI, expecificar cual" >  
 
+
+  <input class="form-control" type="text" name="qenfermedad" placeholder="En caso de SI, expecificar cual." required >
   
 
 </div>
@@ -106,7 +104,7 @@
 include("funciones/validacion.php");
 
 ?>
-<button type="submit" class="btn btn-primary btn-lg btn-block" name="registrarse">Registrarse</button>
+<button type="submit" class="btn btn-primary btn-lg btn-block" name="registrarse">Registrar</button>
 
 
 </form>

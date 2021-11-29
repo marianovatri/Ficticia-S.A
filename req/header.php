@@ -17,8 +17,8 @@
     <img src="https://assurerbroker.com/wp-content/uploads/2020/10/corazon-con-variante-de-linea-de-vida.png" width="30" height="30" class="d-inline-block align-top" alt="">
     <h6>Ficticia S.A</h6>
     <div class="links">
-    <a href="index.php">Inicio</a>
-    <a href="registro.php">Registrarse</a>
+    <a href="index.php">Inicio |</a>
+    <a href="registro.php">Registrar |</a>
     <a href="clientes.php">Clientes Actuales</a>
     </div>
   </a>
